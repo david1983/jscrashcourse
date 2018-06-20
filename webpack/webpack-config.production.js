@@ -5,7 +5,7 @@ import webpack from 'webpack';
 const pathBase = path.resolve(__dirname, '..');
 const pathSrc = path.join(pathBase, 'src');
 const pathLib = path.join(pathBase, 'lib');
-const pathDist = path.join(pathBase, 'dist');
+const pathDist = path.join(pathBase, 'docs');
 const pathLoader = path.join(pathBase, 'webpack', 'loader');
 
 const config = {

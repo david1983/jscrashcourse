@@ -50,7 +50,7 @@ router.get('/:id', (req, res) => {
 
 router.post('/',(req, res) => {
 &nbsp;&nbsp;&nbsp;&nbsp;const newTask = req.body
-&nbsp;&nbsp;&nbsp;&nbsp;// create new task
+&nbsp;&nbsp;&nbsp;&nbsp;// create new
 })
 
 module.exports = router
