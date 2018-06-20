@@ -3,7 +3,7 @@
 
 <div style="display:flex;">
 <div style="flex:1">
-<pre style="width:100%"><code class="javascript">
+<pre><code class="javascript">
 if(true){
     var a = true
 }
@@ -24,7 +24,7 @@ console.log(test)
 </code></pre>
 </div>
 <div style="flex:1">
-<pre style="width:100%"><code class="javascript">
+<pre><code class="javascript">
 if(true){
     let a = true
 }

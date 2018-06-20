@@ -1,9 +1,9 @@
 # spread operator
-
+Spread syntax allows an iterable to be expanded in places where zero or more arguments (function calls) or elements (array literals) are expected
 
 <div style="display:flex;">
 <div style="flex:1">
-<pre style="width:100%"><code class="javascript">
+<pre><code class="javascript">
 //ES5
 var _toArray = function (arr) {
   return Array.isArray(arr) ? 
@@ -21,7 +21,7 @@ console.log(add.apply(null, _toArray(nums)));
 </code></pre>
 </div>
 <div style="flex:1">
-<pre style="width:100%"><code class="javascript">
+<pre><code class="javascript">
 // ES6
 function add() {
   return arguments
